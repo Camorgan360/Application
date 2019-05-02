@@ -1,5 +1,3 @@
-import applicantApi from "./applicant-api";
-
 // import
 
 const form = document.getElementById('nba-app');
@@ -12,4 +10,4 @@ form.addEventListener('submit', (event) => {
     applicantApi.save(applicant);
 
     // thank you
-}
+});
