@@ -1,5 +1,5 @@
 import getApplicant from '../src/getApplicant.js';
-import getApplicant from './applicant-api.js';
+import applicantApi from './applicant-api.js';
 
 const form = document.getElementById('nba-app');
 

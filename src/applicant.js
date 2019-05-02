@@ -1,4 +1,4 @@
-// import
+import applicantApi from './applicant-api.js';
 
 const name = document.getElementById('full-name');
 const age = document.getElementById('age');
