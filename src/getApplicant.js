@@ -1,10 +1,10 @@
-function getApplicant(formdata) {
+function getApplicant(formData) {
     const age = parseInt(formData.get('age'));
     const applicant = {
         name: formData.get('full-name'),
         age: age,
         appSkills: formData.getAll('app-skills'),
-        found: formData.get('found'),
+        tall: formData.get('tall'),
         role: formData.get('role'),
         motivation: formData.get('motivation'),
     };
