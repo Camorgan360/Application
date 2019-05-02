@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apply</title>
+    <link rel="stylesheet" href="src/main.css">
+</head>
+<body>
+    <header>
+        <h1>
+            NBA Application
+        </h1>
+    </header>
+    <main>
+        <form id="nba-app">
+
+            <h2>Apply!</h2>
+
+            <section>
+                <p>
+                    <label for="name">Full Name</label>
+                    <input type="text" name="full-name" id="full-name" placeholder="Please type your name" required>
+                </p>
+                <p>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name = "age" required>
+                </p>
+            </section>
+
+            <section>
+                <fieldset>
+                    <legend>
+                        Can you do these essential things?
+                    </legend>
+
+                    <div>
+                        <input type="checkbox" value="complain" name="app-skills" id="complain">
+                        <label for="complain">Complain?</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" value="drain-threes" name="app-skills" id="drain-threes">
+                        <label for="drain-threes">Drain threes?</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" value="dunk" name="app-skills" id="dunk">
+                        <label for="dunk">Dunk?</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" value="foul" name="app-skills" id="foul">
+                        <label for="foul">Foul Hard?</label>
+                    </div>
+                </fieldset>
+
+            <section>
+
+                </section>
+                    <fieldset>
+                        <legend>
+                            Are you over 6'4?
+                        </legend>
+                        <input type="radio" id="yes" value="yes" name="found" required>
+                        <label>Yes</label>
+
+                        <input type="radio" id="no" value="no" name="found" required>
+                        <label>No</label>
+                    </fieldset>
+                </section>
+            </section>
+    
+            <section>
+                <fieldset>
+                    <label for="role">Select what position you would like to play.</label>
+                    <select name="role" id="role" required>
+
+                        <option value="" hidden disabled selected>Select a role</option>
+                        <option value="point-guard">Point Guard</option>
+                        <option value="shooting-guard">Shooting Guard</option>
+                        <option value="small-forward">Small Forward</option>
+                        <option value="power-forward">Power Forward</option>
+                        <option value="center">Center</option>
+                    
+                    </select>    
+                </fieldset>
+            </section>
+
+            <section>
+                <fieldset>
+
+                    <label for="motivation">Why do you want to be a NBA player?</label>
+                    <br />
+                    <textarea name="motivation" id="motivation" cols="30" rows="10"></textarea>
+
+                </fieldset>
+            </section>
+
+            <h2>Ready to be a NBA player?</h2>
+            <button>Submit</button>
+        </form>
+    </main>
+    <script> src="./src/apply.js"</script>
+</body>
+</html>
