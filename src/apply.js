@@ -10,5 +10,5 @@ form.addEventListener('submit', (event) => {
     const applicant = getApplicant(formData);
     applicantApi.save(applicant);
 
-    // thank you
+    window.location = 'thank-you.html';
 });

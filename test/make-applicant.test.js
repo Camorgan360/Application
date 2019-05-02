@@ -10,8 +10,6 @@ test('time to test a function', function(assert) {
         tall: 'yes',
         role: 'point-guard'
         motivation: 'Wanna be a shot caller'
-
-
     };
     
     const formData = new FormData();
