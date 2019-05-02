@@ -4,12 +4,12 @@ const test = QUnit.test;
 test('time to test a function', function(assert) {
 
     const expected = {
-        name:
-        age: 
-        appSkills:
-        tall:
-        role:
-        motivation:
+        name: 'Caleb'
+        age: 27
+        appSkills: ['dunk', 'drain-threes'],
+        tall: 'yes',
+        role: 'point-guard'
+        motivation: 'Wanna be a shot caller'
 
 
     };
