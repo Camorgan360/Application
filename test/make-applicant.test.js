@@ -1,10 +1,10 @@
-// import
+import getApplicant from '../src/getApplicant.js';
 const test = QUnit.test;
 test('time to test a function', function(assert) {
 
     const expected = {
         name:
-        age:
+        age: 
         appSkills:
         tall:
         role:

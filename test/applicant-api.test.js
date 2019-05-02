@@ -1,5 +1,5 @@
 const test = QUnit.test;
-// import
+import applicantApi from '../src/applicant-api.js';
 
 QUnit.module('applicant api');
 
